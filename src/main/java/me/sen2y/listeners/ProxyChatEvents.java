@@ -1,12 +1,18 @@
 package me.sen2y.listeners;
 
-import com.velocitypowered.api.event.Continuation;
 import com.velocitypowered.api.event.Subscribe;
 import com.velocitypowered.api.event.connection.DisconnectEvent;
 import com.velocitypowered.api.event.player.PlayerChatEvent;
 import me.sen2y.Utils;
-import net.kyori.adventure.text.Component;
 import me.sen2y.VelocityStaffChat;
+import net.kyori.adventure.text.Component;
+
+/*
+* This class/listener is currently not in use due to how Velocity Chat API work currently.
+* This class would allow staff to use /staff toggle and chat normally in staffchat, using
+* the '!' prefix would allow them to send the message as a normal chat.
+* Until Velocity fixes their chat signing system, this cannot be done.
+* */
 
 public class ProxyChatEvents {
     private final VelocityStaffChat plugin;
