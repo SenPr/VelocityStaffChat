@@ -11,7 +11,7 @@ import net.kyori.adventure.text.Component;
 * This class/listener is currently not in use due to how Velocity Chat API work currently.
 * This class would allow staff to use /staff toggle and chat normally in staffchat, using
 * the '!' prefix would allow them to send the message as a normal chat.
-* Until Velocity fixes their chat signing system, this cannot be done.
+* Until Velocity fixes their chat signing system, this cannot be done
 * */
 
 public class ProxyChatEvents {
